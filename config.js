@@ -55,13 +55,12 @@ const config = {
             repo: "k4l1sh/auto-cert-chrome-docker",
             description: "A Docker for Undetected Chromedriver with certificate import",
             url: "https://github.com/k4l1sh/auto-cert-chrome-docker",
-            stars: 9
+            stars: 5
         }
     ],
     settings: {
         title: "k4l1sh",
-        description: "Software Engineer specializing in cybersecurity, creator of innovative tools and SaaS solutions.",
-        favicon: "💻"
+        description: "Software engineer focused on cybersecurity and AI-driven solutions. Explore my projects and blog.",
     }
 };
 

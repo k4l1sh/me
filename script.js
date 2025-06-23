@@ -124,7 +124,7 @@ function renderPrivateProjects() {
     
     config.private_projects.forEach(project => {
         const projectCard = document.createElement('div');
-        projectCard.className = 'project-card saas';
+        projectCard.className = 'project-card private';
         
         projectCard.innerHTML = `
             <div class="project-header">
