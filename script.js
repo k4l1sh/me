@@ -15,7 +15,6 @@ function initializePage() {
     
     updatePageMetadata();
     updatePersonalInfo();
-    updateNavigationLinks();
     updateAboutSection();
     updateContactSection();
     renderPrivateProjects();
@@ -68,12 +67,6 @@ function updatePersonalInfo() {
             }
         });
     }
-}
-
-// Update navigation links
-function updateNavigationLinks() {
-    const navLinks = document.querySelectorAll('.nav-link');
-    if (navLinks[0]) navLinks[0].href = config.contact.blog;
 }
 
 // Update about section content
