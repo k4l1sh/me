@@ -23,7 +23,7 @@ const config = {
     private_projects: [
         {
             name: "OpiniData",
-            description: "Data analytics and opinion mining platform for businesses",
+            description: "AI-powered customer feedback analytics for businesses",
             url: "https://opinidata.com",
             type: "Private"
         }
