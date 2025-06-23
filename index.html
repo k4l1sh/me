@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k4l1sh - Software Engineer</title>
+    <meta name="description" content="Software Engineer specializing in cybersecurity, creator of innovative tools and SaaS solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <script src="config.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="terminal-prompt">
+                <span class="user">root@k4l1sh</span><span class="separator">:</span><span class="path">~</span><span class="dollar">$</span>
+                <span class="command">whoami</span>
+            </div>
+            <nav class="nav">
+                <a href="https://github.com/k4l1sh" target="_blank" class="nav-link">GitHub</a>
+                <a href="https://blog.k4l1sh.com" target="_blank" class="nav-link">Blog</a>
+                <a href="mailto:contact@k4l1sh.com" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Profile Section -->
+                <section class="profile">
+                    <div class="profile-info">
+                        <h1 class="name">k4l1sh</h1>
+                        <div class="status">
+                            <span class="status-dot"></span>
+                            <span class="status-text">Available</span>
+                        </div>
+                    </div>
+                    <div class="details" id="personal-details">
+                        <!-- Dynamic personal details will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section class="contact">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="terminal-output">
+                        <div class="terminal-line">
+                            <span class="prompt">root@k4l1sh:~$</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="command">cat contact.json</span>
+                        </div>
+                        <div class="json-output">
+                            <div class="json-line">
+                                <span class="json-bracket">{</span>
+                            </div>
+                            <div class="json-line json-indent">
+                                <span class="json-key">"email"</span>: <a href="mailto:contact@k4l1sh.com" class="json-value">"contact@k4l1sh.com"</a>,
+                            </div>
+                            <div class="json-line json-indent">
+                                <span class="json-key">"github"</span>: <a href="https://github.com/k4l1sh" target="_blank" class="json-value">"github.com/k4l1sh"</a>,
+                            </div>
+                            <div class="json-line json-indent">
+                                <span class="json-key">"blog"</span>: <a href="https://blog.k4l1sh.com" target="_blank" class="json-value">"blog.k4l1sh.com"</a>
+                            </div>
+                            <div class="json-line">
+                                <span class="json-bracket">}</span>
+                            </div>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">root@k4l1sh:~$</span>
+                            <span class="cursor">█</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- About Section -->
+                <section class="about">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <p>
+                            I'm passionate about building innovative software solutions and sharing knowledge with the developer community. 
+                            My work includes architecting cloud infrastructure with Kubernetes, engineering web applications, developing security tools, LLM solutions and more.
+                        </p>
+                        <p>
+                            You can explore my open-source contributions on <a href="https://github.com/k4l1sh" target="_blank" class="link">GitHub</a> 
+                            and read about my thoughts and experiences on my <a href="https://blog.k4l1sh.com" target="_blank" class="link">blog</a>. 
+                            These platforms showcase my journey and the projects I'm passionate about.
+                        </p>
+                        <p>
+                            Feel free to visit these links to learn more about my work and connect with me!
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Private Projects Section -->
+                <section class="projects saas-projects">
+                    <h2 class="section-title">Private Projects</h2>
+                    <div class="projects-grid" id="private-projects">
+                        <!-- Dynamic private projects will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Open Source Projects Section -->
+                <section class="projects opensource-projects">
+                    <h2 class="section-title">Open Source</h2>
+                    <div class="projects-grid" id="github-projects">
+                        <!-- Dynamic GitHub projects will be loaded here -->
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
