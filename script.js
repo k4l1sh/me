@@ -73,9 +73,7 @@ function updatePersonalInfo() {
 // Update navigation links
 function updateNavigationLinks() {
     const navLinks = document.querySelectorAll('.nav-link');
-    if (navLinks[0]) navLinks[0].href = config.contact.github;
-    if (navLinks[1]) navLinks[1].href = config.contact.blog;
-    if (navLinks[2]) navLinks[2].href = `mailto:${config.contact.email}`;
+    if (navLinks[0]) navLinks[0].href = config.contact.blog;
 }
 
 // Update about section content
@@ -281,32 +279,6 @@ function addInteractiveFeatures() {
             cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
         }, 1000);
     }
-    
-    // Add keyboard shortcuts
-    document.addEventListener('keydown', function(e) {
-        if (typeof config === 'undefined') return;
-        
-        // Ctrl/Cmd + K to focus on contact
-        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-            e.preventDefault();
-            const contactSection = document.querySelector('.contact');
-            if (contactSection) {
-                contactSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
-        
-        // Ctrl/Cmd + G to open GitHub
-        if ((e.ctrlKey || e.metaKey) && e.key === 'g') {
-            e.preventDefault();
-            window.open(config.contact.github, '_blank');
-        }
-        
-        // Ctrl/Cmd + B to open blog
-        if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
-            e.preventDefault();
-            window.open(config.contact.blog, '_blank');
-        }
-    });
     
     // Add smooth scrolling for internal links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
