@@ -15,7 +15,7 @@ const config = {
     },
     about: {
         paragraphs: [
-            "I'm passionate about building innovative software solutions and sharing knowledge with the developer community. My work includes architecting cloud infrastructure with Kubernetes, engineering web applications, developing security tools, LLM solutions and more.",
+            "I'm passionate about building innovative software solutions and sharing knowledge with the developer community. My work includes architecting cloud infrastructure with Kubernetes, engineering web applications, developing cybersecurity tools, LLM solutions and more.",
             "You can explore my open-source contributions on GitHub and read about my thoughts and experiences on my blog. These platforms showcase my journey and the projects I'm passionate about.",
             "Feel free to visit these links to learn more about my work and connect with me!"
         ]
