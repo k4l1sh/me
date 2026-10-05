@@ -21,12 +21,12 @@ const config = {
         ]
     },
     private_projects: [
-        {
-            name: "OpiniData",
-            description: "AI-powered customer feedback analytics for businesses",
-            url: "https://opinidata.com",
-            type: "Private"
-        }
+        // {
+        //     name: "OpiniData",
+        //     description: "AI-powered customer feedback analytics for businesses",
+        //     url: "https://opinidata.com",
+        //     type: "Private"
+        // }
     ],
     github_projects: [
         {
